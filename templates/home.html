@@ -3,12 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Nsas</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
 <h1 class="vice">Vice Versa</h1>
-<form>
+<form action="{% url 'reversed' %}">
     <textarea name="text" placeholder="Enter text" cols="40" rows="20"></textarea>
     <p><input type="submit" value="Reverse"></p> 
     
